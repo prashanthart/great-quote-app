@@ -1,0 +1,23 @@
+.title{
+    text-align: center;
+    color: rgb(45, 43, 43);
+}
+.black_card{
+    max-width: 25rem;
+    padding: 30px;
+    color: white;
+    background-color: black;
+    margin: auto;
+}
+.black_card p{
+    display: flex;
+    justify-content: flex-end;
+    text-transform: capitalize;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.black_card h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}

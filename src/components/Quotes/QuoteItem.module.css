@@ -1,0 +1,40 @@
+.wrapper{
+    /* border:1px solid black; */
+    max-width: 30rem ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:3px 10px ;
+    margin: 0px 0px 15px 0px;
+    background-color: rgba(197, 245, 245, 0.915);
+
+}
+.wrapper h3{
+    margin: 3px 5px;
+}
+.wrapper small{
+    margin: 5px;
+    text-transform: capitalize;
+}
+.cover{
+    padding: 0px 5px;
+}
+.wrapper .btn{
+    width:9rem;
+    padding: 0.5rem;
+    background-color: rgb(40, 165, 40);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+}
+.wrapper .btn:hover{
+    background-color: rgb(26, 142, 26);
+
+}
+.wrapper div{
+    width: 19rem;
+    /* overflow: hidden; */
+}

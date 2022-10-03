@@ -1,0 +1,31 @@
+.ul{
+    padding: 3px 10px;
+    margin: 0px;
+}
+.sorting{
+    /* border: 1px solid black; */
+    padding: 3px 10px;
+
+}
+.div__ul{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    max-width: 30rem;
+    margin: auto;
+    justify-content: space-between;
+
+}
+.sorting button{
+    width: 8rem;
+    padding: 8px;
+    margin: 5px 0px;
+    background-color: rgba(127, 255, 212, 0.422);
+    color: rgb(8, 112, 104);
+    font-weight:bold;
+    border: 1px solid rgb(8, 112, 104);;
+    border-radius: 5px;
+}
+.sorting button:hover{
+   background-color: rgba(38, 162, 121, 0.422);
+}

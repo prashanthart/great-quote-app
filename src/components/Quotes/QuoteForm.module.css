@@ -1,0 +1,63 @@
+/* .form-control{
+    margin: 10px auto; */
+    /* width: 30rem; */
+    /* border: 1px solid black; */
+    /* padding: 10px; */
+    /* background-color: white; */
+/* } */
+.author_input_control,
+.text_input_control{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom:5px ;
+}
+.text_input_control textarea,
+.author_input_control input{
+   
+    background-color: #d5d2cbc9;
+    border: none;
+    outline-color: #d5d2cbc9;
+    outline-color: rgb(39, 140, 39);
+   padding: 10px;
+   border-radius: 5px;
+
+}
+.text_input_control textarea{
+    height: 8rem;
+}
+.author_input_control label,
+.text_input_control label{
+    font-weight: bold;
+    margin-left: 3px;
+}
+.wrapper{
+    background-color: white;
+    max-width: 31rem;
+    margin: 15px auto;
+    padding: 10px;
+
+}
+.form-control button{
+    display: block;
+    margin-left: auto;
+    width: 8rem;
+    padding: 6px;
+    border: none;
+    background-color: rgb(72, 159, 72);
+    color: white;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+
+.form-control button:hover{
+    background-color: rgba(47, 130, 47, 0.907);
+}
+.text_input_control textarea:focus,
+.author_input_control input:focus{
+    background-color: rgba(177, 227, 227, 0.601);
+}

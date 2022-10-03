@@ -1,0 +1,9 @@
+.ul{
+    list-style: none;
+    padding:5px;
+    /* border: 1px solid black; */
+    text-align: center;
+    max-width:35rem;
+
+    margin:10px auto;
+}
